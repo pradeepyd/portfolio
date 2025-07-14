@@ -5,7 +5,6 @@ import GitHubCalendar from "react-github-calendar";
 import { useTheme } from "next-themes";
 import { motion } from "framer-motion";
 import { BorderBeam } from "@/components/magicui/border-beam";
-import { Baloo_Paaji_2 } from "next/font/google";
 
 export function GithubContributions() {
   const { resolvedTheme } = useTheme();
@@ -45,7 +44,7 @@ export function GithubContributions() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
       >
-        <div className="pb-4 over hover:scale-[1.02] transition-transform duration-300 ">
+        <div className="p-3 over hover:scale-[1.02] transition-transform duration-300 ">
           <GitHubCalendar
             username="pradeepyd"
             colorScheme={resolvedTheme as "light" | "dark"}
