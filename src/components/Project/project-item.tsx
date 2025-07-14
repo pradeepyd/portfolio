@@ -22,7 +22,7 @@ const ProjectItem: React.FC<ProjectItemProps> = ({
 }) => {
   return (
     <li role="listitem">
-      <div className="grid gap-4 rounded-md">
+      <div className="grid gap-8 rounded-md ">
         <Link href={href || "#"}>
           <div className="relative aspect-video overflow-hidden rounded-md  transition-transform duration-300 ease-in-out hover:scale-105">
             <Image
@@ -36,7 +36,7 @@ const ProjectItem: React.FC<ProjectItemProps> = ({
           </div>
         </Link>
         <hgroup className="space-y-2 sm:space-y-1">
-          <h2 className="font-ubuntu text-base font-medium">{title}</h2>
+          <h2 className="font-ubuntu text-base font-medium ">{title}</h2>
 
           <p className={"text-xs text-[#00ADB5] "} aria-label="project stacks">
             {stacks.join(" / ")}
@@ -46,7 +46,7 @@ const ProjectItem: React.FC<ProjectItemProps> = ({
             {description}
           </p>
 
-          <div className="!mt-2 flex items-center gap-4">
+          <div className="!mt-2 flex items-center gap-4 mb-4">
             {href && (
               <Link
                 aria-label={`visit ${title} live URL}`}

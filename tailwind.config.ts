@@ -4,6 +4,9 @@ const config = {
   content: ["./app/**/*.{ts,tsx}", "./src/**/*.{ts,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        geist: ['var(--font-geist-sans)', 'sans-serif'],
+      },
       typography: {
         DEFAULT: {
           css: {
