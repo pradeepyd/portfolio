@@ -1,10 +1,10 @@
 // import {createId} from "@paralleldrive/cuid2"
-import postmail from "@/components/assets/projects/postmail.png"
-import jobportal from "@/components/assets/projects/jobportal.png"
-import fanmix from "@/components/assets/projects/fanmix.png"
-import khata from "@/components/assets/projects/khata.png"
-import musictech from "@/components/assets/projects/musictech.png"
-import paytm from "@/components/assets/projects/paytm.png"
+import postmail from "@/assets/projects/postmail.png"
+import jobportal from "@/assets/projects/jobportal.png"
+import fanmix from "@/assets/projects/fanmix.png"
+import khata from "@/assets/projects/khata.png"
+import musictech from "@/assets/projects/musictech.png"
+import paytm from "@/assets/projects/paytm.png"
 const projects = [
   {
     // id:createId(),
