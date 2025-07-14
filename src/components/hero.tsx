@@ -83,7 +83,7 @@ const Hero = () => {
                         }
                     />
                     <SocialLink
-                        href="http://localhost:3000/projects" // replace with your actual projects section or page link
+                        href="http://localhost:3000/projects" 
                         icon={
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -116,16 +116,14 @@ const Hero = () => {
             <p className="text-[#8B8B8B] max-w-xl">
                 I'm a Full Stack Developer from Nepal. I enjoy building things that mostly works.I break things ,build fast. Fascinated about space ,science and ideas that expand the mind.
             </p>
-            <p className="text-[#8B8B8B] max-w-xl">I am <span className="text-neutral-200 underline">open to work</span>, freelance or collaborate</p>
+            <p className="text-[#8B8B8B] max-w-xl">I am <span className="text-neutral-200">open to work</span>, freelance or collaborate.</p>
         </section>
     );
 };
 
 export default Hero;
 
-/**
- * Reusable social link button
- */
+
 const SocialLink = ({
     href,
     icon,
