@@ -1,5 +1,4 @@
 import { Metadata } from "next";
-import pngIcon from "@/app/logo.png"
 const TITLE = "Pradeep Yadav";
 const DESCRIPTION =
   "I'm Pradeep Yadav , a Full stack developer";
@@ -39,7 +38,7 @@ export const siteConfig: Metadata = {
     type: "website",
     images: [
       {
-        url:pngIcon.src,
+        url:PREVIEW_IMAGE_URL,
         width: 1200,
         height: 630,
         alt: "Pradeep Yadav - Full Stack Developer",
