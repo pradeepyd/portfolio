@@ -5,7 +5,7 @@ import { typo } from "./ui/typography";
 
 const Skills = () => {
   return (
-    <section aria-label="skills" className="my-4 space-y-8 bg-background">
+    <section aria-label="skills" className="my-4 space-y-8 bg-transparent">
       <h2 className={typo({ variant: "h2" })}>Tools that I have used</h2>
       <div className="w-full space-y-6">
         <Marquee autoFill pauseOnHover speed={20}>
