@@ -1,5 +1,4 @@
 import { Metadata } from "next";
-import icon from "@/app/logo.png"
 import pngIcon from "@/app/logo.png"
 const TITLE = "Pradeep Yadav";
 const DESCRIPTION =
