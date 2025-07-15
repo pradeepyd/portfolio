@@ -2,11 +2,8 @@
 import dynamic from 'next/dynamic';
 import { BlurFade } from "@/components/magicui/blur-fade";
 import { GithubSkeleton } from "@/components/skeletons/github-skeleton";
-import Image from "next/image";
 import ProjectList from '@/components/Project/project-list';
 import projects from '@/components/Project/project-data';
-import { ScrollSVGPath } from '@/components/fading';
-import PageBackground from '@/components/background';
 import Skills from '@/components/skillSection';
 import Hero from '@/components/hero';
 import { typo } from '@/components/ui/typography';
