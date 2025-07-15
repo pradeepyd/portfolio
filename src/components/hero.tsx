@@ -5,9 +5,7 @@ import profile from "@/assets/projects/pp.jpg"
 const Hero = () => {
     return (
         <section className="pt-5 mb-8 font-geist text-base">
-            {/* Top row: profile + socials */}
             <div className="flex justify-between items-start mb-8">
-                {/* Profile picture */}
                 <div className="relative w-32 h-32 rounded-2xl overflow-hidden">
                     <Image
                         src={profile}
@@ -18,7 +16,6 @@ const Hero = () => {
                     />
                 </div>
 
-                {/* Social links */}
                 <div className="flex items-center gap-2 md:gap-4">
                     <SocialLink
                         href="https://x.com/pradeep100xdev"
@@ -113,7 +110,7 @@ const Hero = () => {
                 Full Stack Developer
             </p>
             <p className="text-[#8B8B8B] max-w-xl">
-                I'm a Full Stack Developer from Nepal. I enjoy building things that mostly works.I break things ,build fast. Fascinated about space ,science and ideas that expand the mind.
+                I'm a Full Stack Developer from Nepal. I enjoy building things that mostly works. I break things ,build fast. Fascinated about space ,science and ideas that expand the mind.
             </p>
             <p className="text-[#8B8B8B] max-w-xl">I am <span className="text-neutral-200">open to work</span>, freelance or collaborate.</p>
         </section>

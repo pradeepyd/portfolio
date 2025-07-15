@@ -5,7 +5,6 @@ import { FaInstagram, FaXTwitter } from "react-icons/fa6";
 import { FiGithub } from "react-icons/fi";
 import { typo } from "./ui/typography";
 import { cn } from "@/lib/utils";
-import Image from "next/image";
 
 const socialsIcons = [
     {

@@ -29,7 +29,6 @@ const ProjectItem: React.FC<ProjectItemProps> = ({
                 alt={`${title} not found`}
                 priority
                 placeholder="blur"
-                //@ts-ignore
                 src={images}
                 className="size-full rounded-md object-cover "
             />

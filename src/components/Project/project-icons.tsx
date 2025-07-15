@@ -6,7 +6,7 @@ const DEFAULT_CLASS = "size-16 border bg-[#11117c] grid place-content-center rou
 export const Postmail = () => {
   return (
     <div className={cn(DEFAULT_CLASS, "bg-[#11117c]")}>
-      <Image alt="Power up brain battles" src="projects/postmail" placeholder="blur" />
+      <Image alt="AI email generator" src="projects/postmail" placeholder="blur" />
     </div>
   );
 };
@@ -14,7 +14,7 @@ export const Fanmix = () => {
   return (
     <div className={cn(DEFAULT_CLASS, "overflow-hidden bg-transparent p-0")}>
       <Image
-        alt="Unlocking the Potential of Kuto Digital Characters"
+        alt="Collaborative music streaming platform"
         src="projects/fanmix"
         placeholder="blur"
       />
@@ -25,7 +25,7 @@ export const Musictech = () => {
   return (
     <div className={cn(DEFAULT_CLASS, "bg-transparent bg-white p-2")}>
       <Image
-        alt="Unlocking the Potential of Kuto Digital Characters"
+        alt="Landing page for music learning platform"
         src="projects/musictech"
         placeholder="blur"
       />
@@ -44,7 +44,7 @@ export const JobPortal = () => {
 export const Paytm = () => {
   return (
     <div className={cn(DEFAULT_CLASS, "border-0 bg-transparent p-0")}>
-      <Image alt="ultimate source for country rankings" src="projects/paytm" placeholder="blur" />
+      <Image alt="paytm clone " src="projects/paytm" placeholder="blur" />
     </div>
   );
 };

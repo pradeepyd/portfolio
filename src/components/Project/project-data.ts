@@ -1,4 +1,3 @@
-// import {createId} from "@paralleldrive/cuid2"
 import postmail from "@/assets/projects/postmail.png"
 import jobportal from "@/assets/projects/jobportal.png"
 import fanmix from "@/assets/projects/fanmix.png"
@@ -7,7 +6,6 @@ import musictech from "@/assets/projects/musictech.png"
 import paytm from "@/assets/projects/paytm.png"
 const projects = [
   {
-    // id:createId(),
     title: `PostMail`,
     description:
       "AI-Powered Cold Email Generator & Sender.Generate personalized cold emails instantly with AI and send them in one click — all without signing in.",
@@ -19,7 +17,6 @@ const projects = [
   },
 
   {
-    // id:createId(),
     title: `Fanmix`,
     description:
       "Collaborative music platform where listeners vote and choose the next song in real-time, creating the perfect mix for every group vibe.",
@@ -31,7 +28,6 @@ const projects = [
   },
 
   {
-    // id:createId(),
     title: `musictech`,
     images: musictech,
     description:
@@ -43,7 +39,6 @@ const projects = [
   },
 
   {
-    // id:createId(),
     title: `Khata`,
     description:
       "Lightweight wallet tool to generate seed phrases and create Solana and Ethereum accounts effortlessly.",
@@ -55,7 +50,6 @@ const projects = [
   },
 
   {
-    // id:createId(),
     title: `Jobportal`,
     description:
       "Platform that connects job seekers with employers, making it easy to find and post opportunities efficiently",
@@ -67,7 +61,6 @@ const projects = [
   },
 
   {
-    // id:createId(),
     title: `PayTM clone`,
     description:
       "Web terminal interface that replicates my home build's st terminal. Supports over 50 unique commands.",
