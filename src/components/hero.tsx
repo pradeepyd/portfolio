@@ -80,7 +80,7 @@ const Hero = () => {
                         }
                     />
                     <SocialLink
-                        href="http://localhost:3000/projects" 
+                        href="https://pradeepdev.vercel.app/projects" 
                         icon={
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
