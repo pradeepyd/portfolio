@@ -40,7 +40,7 @@ const socialsIcons = [
 const email = "pradeep20020102@gmail.com"
 const ContactUs = () => {
     return (
-        <section aria-label="contact">
+        <section aria-label="contact" className="mt-6">
             <div className="flex w-full flex-col items-center gap-4 ">
                 <div className="size-full w-full space-y-4 ">
                     <h2 className={typo({ variant: "h2" })}>Contact</h2>
