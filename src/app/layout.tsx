@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/next"
 import { ThemeProvider } from "@/components/Theme-provider";
 import PageBackground from "@/components/background";
+import { siteConfig } from "@/lib/site-config";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -13,10 +15,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: "Pradeep yadav",
-  description: "Full Stack developer",
-};
+export const metadata: Metadata = siteConfig;
 
 export default function RootLayout({
   children,
@@ -29,16 +28,18 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <PageBackground>
-        <ThemeProvider
-         attribute="class"
+          <ThemeProvider
+            attribute="class"
             defaultTheme="system"
             enableSystem
             disableTransitionOnChange
-            >
+          >
 
-         {children}
-        </ThemeProvider>
-                 </PageBackground>
+            {children}
+          </ThemeProvider>
+        </PageBackground>
+        <Analytics />
+
       </body>
     </html>
   );
