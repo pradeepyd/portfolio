@@ -5,8 +5,11 @@ const config = {
   theme: {
     extend: {
       fontFamily: {
-        geist: ['var(--font-geist-sans)', 'sans-serif'],
-      },
+          sans: ["var(--font-sans)"],
+          ubuntu: "var(--font-ubuntu)",
+          dank: "var(--font-dank)",
+          geist: ['var(--font-geist-sans)', 'sans-serif'],
+        },
       typography: {
         DEFAULT: {
           css: {

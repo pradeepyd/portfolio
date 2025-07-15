@@ -119,5 +119,8 @@
   body {
     @apply bg-background text-foreground;
   }
+   h1, h2 {
+    color: var(--foreground);
+  }
 }
 
