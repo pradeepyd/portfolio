@@ -1,7 +1,6 @@
 import { BiLogoPostgresql } from "react-icons/bi";
-import { BsFillBootstrapFill, BsRobot } from "react-icons/bs";
+import { BsFillBootstrapFill } from "react-icons/bs";
 import { IconType } from "react-icons/lib";
-import { SiGithub,SiX,SiMailboxdotorg } from "react-icons/si";
 import {
   SiCss3,
   SiExpress,
@@ -12,7 +11,6 @@ import {
   SiNodedotjs,
   SiPrisma,
   SiReact,
-  SiStyledcomponents,
   SiTailwindcss,
   SiTypescript,
   SiCplusplus,
@@ -22,7 +20,6 @@ import {
   SiHtml5,
   SiDocker,
   SiWeb3Dotjs,
-  SiAwslambda,
   SiShadcnui,
   SiMongodb,
 } from "react-icons/si";
