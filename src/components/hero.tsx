@@ -4,7 +4,7 @@ import Image from "next/image";
 import profile from "@/assets/projects/pp.jpg"
 const Hero = () => {
     return (
-        <section className="pt-5 mb-20 font-geist text-base">
+        <section className="pt-5 mb-8 font-geist text-base">
             {/* Top row: profile + socials */}
             <div className="flex justify-between items-start mb-8">
                 {/* Profile picture */}
@@ -19,7 +19,7 @@ const Hero = () => {
                 </div>
 
                 {/* Social links */}
-                <div className="flex items-center gap-4">
+                <div className="flex items-center gap-2 md:gap-4">
                     <SocialLink
                         href="https://x.com/pradeep100xdev"
                         icon={
@@ -106,7 +106,6 @@ const Hero = () => {
                 </div>
             </div>
 
-            {/* Hero text */}
             <h1 className="text-3xl leading-none font-medium text-primary mb-2">
                 Hi, I'm Pradeep
             </h1>

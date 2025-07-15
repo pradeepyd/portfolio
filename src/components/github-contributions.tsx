@@ -5,6 +5,7 @@ import GitHubCalendar from "react-github-calendar";
 import { useTheme } from "next-themes";
 import { motion } from "framer-motion";
 import { BorderBeam } from "@/components/magicui/border-beam";
+import { typo } from "./ui/typography";
 
 export function GithubContributions() {
   const { resolvedTheme } = useTheme();
@@ -26,7 +27,7 @@ export function GithubContributions() {
   }
 
   return (
-    <div className="relative overflow-hidden rounded-xl">
+    <div className="relative overflow-hidden rounded-xl mt-8">
       <BorderBeam
         duration={6}
         size={400}

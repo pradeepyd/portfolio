@@ -21,29 +21,34 @@ const GithubContributions = dynamic(() => import("@/components/github-contributi
 
 export default function Home() {
   return (
-    <div className="relative z-10 max-w-4xl mx-auto py-12 sm:py-24 px-6 h-[2600px]">
-   
-        <main className="flex flex-col  space-y-10">
+    <div className="relative z-10 max-w-4xl mx-auto pt-20 pb-10  px-6 h-full">
+      <main className="flex flex-col  space-y-10">
+        <BlurFade delay={BLUR_FADE_DELAY * 10}>
+          <Hero />
+        </BlurFade>
+        <BlurFade delay={BLUR_FADE_DELAY * 10}> 
+          <Skills />
+         </BlurFade>
+        <BlurFade delay={BLUR_FADE_DELAY * 10}>
+          <ProjectList projects={projects.slice(0, 4)} metadata />
+        </BlurFade>
+        <section id="contributions" className='mt-8 bg-transparent rounded-full'>
           <BlurFade delay={BLUR_FADE_DELAY * 10}>
-            <Hero />
-            <Skills/>
-          </BlurFade>
-          <BlurFade delay={BLUR_FADE_DELAY * 10}>
-            {/* <h2 className="text-xl font-bold mb-2">GitHub Contributions</h2> */}
-            <ProjectList projects={projects.slice(0, 4)} metadata />
-          </BlurFade>
-          <section id="contributions" className='py-10'>
-            <BlurFade delay={BLUR_FADE_DELAY * 10}>
-              <div className="my-4 space-y-8 bg-background">
-              <h2 className={typo({ variant: "h2" })}>GitHub Contributions</h2>
+            <h2 className={typo({ variant: "h2" })}>GitHub Contributions</h2>
+            <div className="my-6 space-y-8 bg-background">
               <GithubContributions />
-
-              </div>
-            </BlurFade>
-          </section>
+            </div>
+          </BlurFade>
+        </section>
+        <BlurFade delay={BLUR_FADE_DELAY * 10}>
           <ContactUs></ContactUs>
-          <Footer/>
-        </main>
+        </BlurFade>
+      </main>
+      <div className='flex items-center justify-center mt-10'>
+        <BlurFade delay={BLUR_FADE_DELAY * 10}>
+          <Footer />
+        </BlurFade>
+      </div>
     </div>
   );
 }
