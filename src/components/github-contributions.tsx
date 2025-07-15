@@ -3,9 +3,8 @@
 import React from "react";
 import GitHubCalendar from "react-github-calendar";
 import { useTheme } from "next-themes";
-import { motion } from "framer-motion";
+import  {motion}  from "framer-motion";
 import { BorderBeam } from "@/components/magicui/border-beam";
-import { typo } from "./ui/typography";
 
 export function GithubContributions() {
   const { resolvedTheme } = useTheme();
